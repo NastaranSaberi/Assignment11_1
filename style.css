@@ -1,0 +1,124 @@
+@font-face {
+    font-family: Android;
+    src: url(Android.ttf);
+}
+#head{
+    height: 48px;
+    width: 105px;
+    background-color: #78c259;
+    border-radius: 105px 105px 0 0 ;
+    margin-left: 33px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-left: 5px;
+    padding-right: 5px;
+    box-sizing: border-box;
+}
+#A{
+position: relative;
+left: 45%;
+top: 38%;
+}
+#p{
+    position: relative;
+    top: 250px;
+    left: 18px;
+    font-family: Android;
+}
+#eyes1{
+    height: 9px;
+    width: 9px;
+    background-color: white;
+    border-radius: 50px;
+    transition: 1s ease-in-out;
+}
+
+#eyes2{
+    height: 9px;
+    width: 9px;
+    background-color: white;
+    border-radius: 50px;
+    transition: 1s ease-in-out;
+}
+
+#right-hand{
+    height: 72px;
+    width:23.5px;
+    background-color:#78c259 ;
+    border-radius: 50px;
+    margin-right: 5px;
+    position: relative;
+    transform-origin: 65% 15%;
+  
+
+}
+#left-hand{
+    height: 72px;
+    width:23.5px;
+    background-color:#78c259 ;
+    border-radius: 50px;
+    margin-left:5px;
+    position: relative;
+    left: 105px;
+    transform-origin: 35% 15%;
+}
+#body{
+    height: 90px;
+    width: 105px;
+    background-color:#78c259 ;
+    border-radius: 0 0 15px 15px;
+    margin-right: 5px;
+    position: relative;
+    right: 29px;
+}
+#kol{
+    display: flex;
+    margin-top: 4px;
+    margin-left: 4.5px;
+}
+.right-leg{
+    height: 30px;
+    width: 23px;
+    background-color: #78c259;
+    border-radius: 0 0 50px 50px; 
+    margin-left: 54px;
+    margin-right: 15px;
+}
+.left-leg{
+    height: 30px;
+    width: 23px;
+    background-color: #78c259;
+    border-radius: 0 0 50px 50px; 
+}
+
+#legs{
+    display: flex;
+    
+}
+
+.antennar{
+    height: 3.5px;
+    width: 30px;
+    background-color: #78c259;
+    border-radius: 20px;
+    position: fixed;
+    top: 68px;
+    left: 44px;
+    transform: rotate(60deg);
+    top: 350px;
+    left: 680px;
+}
+.antennal{
+    height: 3.5px;
+    width: 30px;
+    background-color: #78c259;
+    border-radius: 20px;
+    position: fixed;
+    top: 68px;
+    left: 116px;
+    transform: rotate(120deg);
+    top: 350px;
+    left: 755px;
+}
+
